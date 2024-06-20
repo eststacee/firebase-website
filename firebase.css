@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+body {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.heading__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form__input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+.taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.taskList li:hover {
+    text-decoration: line-through;
+}

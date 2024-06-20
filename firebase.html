@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="firebase.css">
+</head>
+<body>
+    <section class="container">
+        <div class="heading">
+            <img class="heading__img" src="https://via.placeholder.com/150" alt="Task Management">
+            <h1 class="heading__title">Task Management App</h1>
+        </div>
+        <form class="form" id="task-form">
+            <label class="form__label" for="task">Work on my projects:</label>
+            <input class="form__input" type="text" id="task" name="task" size="30" required>
+            <button class="button"><span>Submit</span></button>
+        </form>
+        <div>
+            <ul class="taskList"></ul>
+        </div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="firebase.js"></script>
+</body>
+</html>
